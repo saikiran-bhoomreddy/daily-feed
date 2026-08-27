@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8">
+<title>Job Search Dashboard</title>
+<style>
+ body{font-family:Segoe UI,system-ui,sans-serif;background:#f4f6f9;color:#1e2430;margin:0;padding:32px 20px}
+ .wrap{max-width:1000px;margin:0 auto}
+ h1{font-size:24px;margin:0 0 4px} .sub{color:#6b7280;font-size:13.5px;margin:0 0 24px}
+ .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:28px}
+ .tile{background:#fff;border:1px solid #dde1e7;border-radius:8px;padding:14px 18px}
+ .tile b{display:block;font-size:28px} .tile span{font-size:12px;color:#6b7280;text-transform:uppercase;letter-spacing:.05em}
+ h2{font-size:17px;margin:30px 0 10px}
+ table{border-collapse:collapse;width:100%;background:#fff;border:1px solid #dde1e7;border-radius:8px;font-size:14px}
+ th{text-align:left;padding:9px 12px;border-bottom:2px solid #dde1e7;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:#6b7280}
+ td{padding:9px 12px;border-bottom:1px solid #eceff3} tr:last-child td{border-bottom:none}
+ .m{color:#6b7280;font-size:13px} .n{font-variant-numeric:tabular-nums}
+ a{color:#2f4b7c;text-decoration:none} a:hover{text-decoration:underline}
+ .chip{font-size:11.5px;padding:2px 9px;border-radius:999px;font-weight:600}
+ .chip.ok{background:#e6f3ec;color:#12703d} .chip.warn{background:#fdf3e7;color:#8a5a00}
+ .chip.bad{background:#fcebe9;color:#b3261e} .chip.mut{background:#eef0f4;color:#6a7385}
+ .empty{background:#fff;border:1px dashed #c7cdd6;border-radius:8px;padding:34px;text-align:center;font-size:16px}
+ .empty span{color:#6b7280;font-size:13.5px} code{background:#eef0f4;padding:2px 6px;border-radius:4px}
+</style></head><body><div class="wrap">
+<h1>Job Search Dashboard</h1>
+<p class="sub">Generated 2026-08-26 23:17 &middot; refresh anytime with <code>dashboard.bat</code> &middot; auto-refreshes with the 8 AM feed run</p>
+<div class="tiles">
+ <div class="tile"><b>0</b><span>Applications submitted</span></div>
+ <div class="tile"><b>0</b><span>In progress</span></div>
+ <div class="tile"><b>0</b><span>Abandoned / failed</span></div>
+ <div class="tile"><b>32</b><span>Jobs found (latest run)</span></div>
+</div>
+<h2>Applications (job-apply plugin)</h2>
+<div class='empty'>No applications tracked yet.<br><span>Start one in Claude Code with <code>/job-apply:job-apply</code> — every application it fills lands here automatically.</span></div>
+<h2>Daily feed — last 14 runs</h2>
+<table><thead><tr><th>Date</th><th>New jobs</th><th></th></tr></thead><tbody><tr><td>2026-08-26</td><td class='n'>32</td><td><a href='digest/2026-08-26.html'>digest</a></td></tr></tbody></table>
+</div></body></html>
